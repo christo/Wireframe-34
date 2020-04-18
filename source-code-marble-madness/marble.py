@@ -1,5 +1,4 @@
 # Marble Madness
-import pgzrun
 from pygame import image
 
 HEIGHT = 570
@@ -60,4 +59,4 @@ def moveMarble():
 def getHeight(x,y):
     return heightmap.get_at((int(x),int(y)))
 
-pgzrun.go()
+
